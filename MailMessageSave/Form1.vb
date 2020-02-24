@@ -1,4 +1,5 @@
-﻿Imports System.Net.Mail
+﻿Option Explicit On
+Imports System.Net.Mail
 
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
