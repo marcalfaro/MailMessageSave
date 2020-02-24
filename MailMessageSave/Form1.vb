@@ -6,11 +6,14 @@ Public Class Form1
 
         Using _testMail As MailMessage = New MailMessage
             With _testMail
-                .Body = "This is a test email"
-                .To.Add(New MailAddress("email@domain.com"))
+                'mark as draft
+                .Headers.Add("X-Unsent", "1")
+
                 .From = New MailAddress("sender@domain.com")
+                .To.Add(New MailAddress("email@domain.com"))
                 .Subject = "Test email"
-                '            .Save($"{IO.Path.Combine(Application.StartupPath, "test.eml")}")
+                .Body = "This is a test email"
+
 
                 Dim tmpFolder As String = IO.Path.Combine(Application.StartupPath, System.Guid.NewGuid.ToString)
                 If Not IO.Directory.Exists(tmpFolder) Then
