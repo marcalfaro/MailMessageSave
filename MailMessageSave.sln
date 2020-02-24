@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MailMessageSave", "MailMessageSave\MailMessageSave.vbproj", "{44C3AD73-1DA7-4144-9001-FC327B5F09F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44C3AD73-1DA7-4144-9001-FC327B5F09F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C3AD73-1DA7-4144-9001-FC327B5F09F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C3AD73-1DA7-4144-9001-FC327B5F09F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C3AD73-1DA7-4144-9001-FC327B5F09F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {891E37EE-68A0-4253-B113-610C9E03F6B4}
+	EndGlobalSection
+EndGlobal
